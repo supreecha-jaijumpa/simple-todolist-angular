@@ -1,0 +1,18 @@
+<form
+  class="w-full flex space-x-2"
+  [formGroup]="form"
+  (ngSubmit)="handleSubmit()"
+>
+  <input
+    type="text"
+    formControlName="task"
+    class="flex-grow border py-1 px-2 rounded outline-none"
+    [ngClass]="{ 'border-red-400': !task?.valid && task?.touched }"
+  />
+  <button
+    class="flex-shrink-0 border px-2 rounded hover:bg-slate-50 hover:shadow-sm"
+    type="submit"
+  >
+    Add
+  </button>
+</form>

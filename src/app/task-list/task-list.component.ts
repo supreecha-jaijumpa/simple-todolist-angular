@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { TodoRepository } from 'src/store/todo.repository';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: '[app-task-list]',
+  templateUrl: './task-list.component.html',
+  styleUrls: ['./task-list.component.css'],
 })
-export class AppComponent {
+export class TaskListComponent {
   constructor(public todoRepo: TodoRepository) {}
 }

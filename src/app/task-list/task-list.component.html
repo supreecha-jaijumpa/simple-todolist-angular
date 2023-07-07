@@ -1,0 +1,7 @@
+<li app-task *ngFor="let task of todoRepo.todo$ | async" [data]="task"></li>
+<li
+  *ngIf="(todoRepo.count$ | async) === 0"
+  class="border-b border-blue-400 py-1 pl-12 text-slate-400"
+>
+  Not found task :)
+</li>

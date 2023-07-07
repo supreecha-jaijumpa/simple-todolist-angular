@@ -1,0 +1,7 @@
+:host {
+  @apply flex border-b border-blue-400 py-1;
+}
+
+:host.done {
+  @apply opacity-50;
+}
