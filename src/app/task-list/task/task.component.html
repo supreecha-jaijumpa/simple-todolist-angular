@@ -1,6 +1,7 @@
 <div class="w-8 flex justify-center">
   <input
     id="task-{{ data.id }}"
+    class="flex-grow border py-1 px-2 rounded outline-none"
     type="checkbox"
     [checked]="data.isCompleted"
     (change)="handleChange($event)"
