@@ -1,5 +1,5 @@
 import { createStore } from '@ngneat/elf';
-import { Task } from 'src/models/task';
+import { Task } from 'src/models/task.model';
 
 import {
   addEntities,

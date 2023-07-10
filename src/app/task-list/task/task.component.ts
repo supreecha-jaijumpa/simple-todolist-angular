@@ -1,6 +1,6 @@
 import { Component, HostBinding, Input, OnInit } from '@angular/core';
 import { TodoRepository } from 'src/store/todo.repository';
-import { Task } from 'src/models/task';
+import { Task } from 'src/models/task.model';
 
 @Component({
   selector: '[app-task]',

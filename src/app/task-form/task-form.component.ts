@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
-import { Task } from 'src/models/task';
+import { Task } from 'src/models/task.model';
 import { TodoRepository } from 'src/store/todo.repository';
 import { generateUUID } from 'src/utils/generateUUID';
 
